@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>settings</title>
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/framework.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&#038;display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="page d-flex">
+      <div class="sidebar bg-white p-20 p-relative">
+        <h3 class="p-relative txt-c mt-0">Youcef</h3>
+        <ul>
+          <li>
+            <a class=" d-flex align-center fs-14 c-black rad-6 p-10" href="index.html">
+              <i class="fa-regular fa-chart-bar fa-fw"></i>
+              <span>Dashboard</span>
+            </a>
+          </li>
+          <li>
+            <a class=" active d-flex align-center fs-14 c-black rad-6 p-10" href="settings.html">
+              <i class="fa-solid fa-gear fa-fw"></i>
+              <span>Settings</span>
+            </a>
+          </li>
+          <li>
+            <a class="d-flex align-center fs-14 c-black rad-6 p-10" href="profile.html">
+              <i class="fa-regular fa-user fa-fw"></i>
+              <span>Profile</span>
+            </a>
+          </li>
+          <li>
+            <a class="d-flex align-center fs-14 c-black rad-6 p-10" href="projects.html">
+              <i class="fa-solid fa-diagram-project fa-fw"></i>
+              <span>Projects</span>
+            </a>
+          </li>
+          <li>
+            <a class="d-flex align-center fs-14 c-black rad-6 p-10" href="plans.html">
+              <i class="fa-regular fa-credit-card fa-fw"></i>
+              <span>Plans</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="content w-full">
+        <!-- Start Head -->
+        <div class="head bg-white p-15 between-flex">
+          <div class="search p-relative">
+            <input class="p-10" type="search" placeholder="Type A Keyword" />
+          </div>
+          <div class="icons d-flex align-center">
+            <span class="notification p-relative">
+              <i class="fa-regular fa-bell fa-lg"></i>
+            </span>
+            <img decoding="async" src="images/photo_2023-11-14_17-16-15.jpg" alt="" />
+          </div>
+        </div>
+        <!-- End Head -->
+        <h1 class="p-relative">Settings</h1>
+        <div class="settings-page m-20 d-grid gap-20">
+          <!-- start settings box -->
+          <div class="box p-20 bg-white rad-10">
+            <h2 class="mb-10 mt-0">Site Control</h2>
+            <p class="mt-0 mb-20 c-grey fs-15">Control The Website If There Is Maintenance</p>
+          <div class="mb-15 between-flex ">
+            <div>
+              <span class="fw-bold">Website Control</span>
+              <p class="fs-13 c-grey mt-5 mb-0">Open/Close Website And Type The Reason</p>
+            </div>
+            <div>
+              <label>
+                <input type="checkbox" class="toggole-checkbox" checked>
+                <div class="toggole-switch">
+                </div>
+              </label>
+            </div>
+          </div>
+          <textarea class="close-msg p-10 rad-6 w-full d-block" placeholder="">khali message shbiii </textarea>
+          </div>
+          <!-- end settings box -->
+          <!-- start genral-info -->
+          <div class="genral-info p-20 bg-white rad-10">
+            <h2 class="mb-10 mt-0">General Info</h2>
+            <p class="mt-0 mb-20 c-grey fs-15">General Information About Your Account</p>
+            <div class="box">
+              <span class="d-block mb-10 c-grey fs-14 ">First Name</span>
+              <input type="text" placeholder="First Name" class="p-10 w-full rad-6 border-ccc mb-10">
+            </div>
+            <div class="box">
+              <span class="d-block mb-10 c-grey fs-14">Last Name</span>
+              <input type="text" placeholder="Lase Name" class="p-10 w-full rad-6 border-ccc mb-10">
+            </div>
+            <div class="box email">
+              <span class="d-block mb-10 c-grey fs-14">Email</span>
+              <input type="text" placeholder="xyz@nn.sa" class="p-10 rad-6 border-ccc mb-10">
+              <a href="#" class="ml-10 c-blue fs-18">Change</a>
+            </div>
+          </div>
+          <!-- end genral-info -->
+          <!-- start securty -->
+          <div class=" securty p-20 bg-white rad-10">
+            <h2 class="mb-10 mt-0">Security Info</h2>
+            <p class="mt-0 mb-20 c-grey fs-15">Security Information About Your Account</p>
+            <div class="box between-flex mb-15 pb-15">
+              <div>
+                <span>Password</span>
+                <p class="c-grey fs-14 mt-5 mb-10">Last Change On 4/2/2024</p>
+            </div>
+              <a href="#" class="c-white  btn-shape bg-blue p-10">Change</a>
+            </div>
+            <div class="box between-flex  mb-15 pb-15">
+              <div>
+                <span>Two-Factor Authentication</span>
+                <p class="c-grey fs-14 mt-5 mb-10 ">Enable/Disable The Feature</p>
+              </div>
+              <div class>
+                <label>
+                  <input type="checkbox" class="toggole-checkbox" checked>
+                  <div class="toggole-switch ">
+                  </div>
+                </label>
+              </div>
+            </div>
+            <div class="box between-flex pb-15">
+              <div>
+                <span>Devices</span>
+              <p class="c-grey fs-14 mt-5 mb-10 ">Check The Login Devices List</p>
+            </div>
+              <a href="#" class="c-black p-10 btn-shape bg-eee">Devices</a>
+            </div>
+          </div>
+          <!-- end securty -->
+          <!-- start socail media -->
+          <div class=" socail-info p-20 bg-white rad-10">
+            <h2 class="mb-10 mt-0">Social Info</h2>
+            <p class="mt-0 mb-20 c-grey fs-15">My Social Media</p>
+            <div class="icons-socail border-ccc bg-eee rad-6 mb-25">
+              <a href="https://twitter.com/Youceftate?t=20-m0YnzJZshvgP-uf29ZQ&s=09">
+                <i class="fa-brands fa-x-twitter p-10 c-blue border-ccc-R"></i>
+                <span class="ml-10 c-grey">Twitter</span></a>
+            </div>
+            <div class="icons-socail border-ccc bg-eee rad-6 mb-25">
+              <a href="https://www.facebook.com/youssef.hadadji.5?mibextid=ZbWKwL">
+                <i class="fa-brands fa-facebook p-10 c-blue border-ccc-R"></i>
+                <span class="ml-10 c-grey">Facebook</span></a>
+            </div>
+            <div class="icons-socail border-ccc bg-eee rad-6 mb-25">
+              <a href="https://twitter.com/Youceftate?t=20-m0YnzJZshvgP-uf29ZQ&s=09">
+                <i class="fa-brands fa-github p-10 c-blue border-ccc-R"></i>
+                <span class="ml-10 c-grey">Github</span></a>
+            </div>
+            <div class="icons-socail border-ccc bg-eee rad-6">
+              <a href="https://twitter.com/Youceftate?t=20-m0YnzJZshvgP-uf29ZQ&s=09">
+                <i class="fa-brands fa-linkedin p-10 c-blue border-ccc-R"></i>
+                <span class="ml-10 c-grey">Linkedin</span></a>
+            </div>
+          </div>
+          <!-- end socail media -->
+          <!-- start width control -->
+          <div class=" widgets-control p-20 bg-white rad-10">
+            <h2 class="mb-10 mt-0">Widgets Control</h2>
+            <p class="mt-0 mb-20 c-grey fs-15">Show/Hide Widgets</p>
+          <ul>
+            <li class="mb-15"><input type="checkbox" checked><span class="ml-10 fs-18">Quick draft</span></li>
+            <li class="mb-15"><input type="checkbox" checked><span class="ml-10 fs-18">Yearly Targets</span></li>
+            <li class="mb-15"><input type="checkbox"><span class="ml-10 fs-18">Tickets Statistics</span></li>
+            <li class="mb-15"><input type="checkbox"><span class="ml-10 fs-18">Latest News</span></li>
+            <li class="mb-15"><input type="checkbox" checked><span class="ml-10 fs-18">Latest Tasks</span></li>
+            <li class="mb-15"><input type="checkbox"><span class="ml-10 fs-18">Top Search Items</span></li>
+          </ul>
+          </div>
+          <!-- end width control -->
+          <!-- start backup -->
+          <div class=" current-plan p-20 bg-white rad-10">
+            <h2 class="mb-10 mt-0">Current plan</h2>
+            <p class="mt-0 mb-20 c-grey fs-15">Check Your Plan</p>
+            <div class="plan-check">
+              <span class="d-block mb-15 c-grey">Free $0/Month</span>
+            </div>
+              <div class="box mb-15 pb-15 d-flex align-center ">
+              <i class="fa-solid fa-box-open fs-25 c-grey "></i>
+              <span class="ml-5">Unlimited Products</span>
+              </div>
+              <div class="box mb-15 pb-15 d-flex align-center ">
+              <i class="fa-solid fa-globe fs-25 c-grey"></i>
+              <span class="ml-10">Unlimited Bandwidth</span>
+              </div>
+              <div class="box mb-15 d-flex align-center pb-15">
+              <i class="fa-solid fa-envelope-open fs-25 c-grey"></i>
+              <span class="ml-10">Unlimited Newsletters</span>
+              </div>
+              <a href="#" class="c-black p-10 btn-shape bg-blue c-white m-0-au d-block w-fit">Change Plan</a>
+          </div>
+          <!-- end backup -->
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
